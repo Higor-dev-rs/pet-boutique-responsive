@@ -79,6 +79,5 @@ LinkedIn: https://www.linkedin.com/in/higor-rodrigues-dev/
 
 - Mobile First ✅  
 - Organização de projeto ✅  
-- GitHub ✅  
-- README profissional ✅  
+- GitHub ✅    
 - Boas práticas ✅  
