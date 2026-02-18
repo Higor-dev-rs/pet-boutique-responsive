@@ -536,4 +536,33 @@ footer {
         text-align: center;
     }
 
+    .btn-topo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--cor-roxa);
+        color: var(--cor-branca);
+        font-size: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #btn-topo.show {
+        opacity: 0.8;
+        visibility: visible;
+    }
+
+    .btn-topo:hover {
+        background-color: #5a2572;
+        transform: translateY(-3px);
+    }
+
 }
