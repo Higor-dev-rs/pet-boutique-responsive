@@ -16,6 +16,17 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
+    min-height: 100dvh;
+    height: 100%;
+}
+
+html {
+    min-height: 100vh;
+    height: 100%;
+}
+
+main {
+    flex: 1;
 }
 
 .section-banner {
@@ -143,6 +154,7 @@ body {
     display: flex;
     justify-content: center;
     overflow-x: auto;
+    overflow-y: hidden;
     justify-content: flex-start;
 }
 
@@ -254,7 +266,7 @@ iframe {
     max-width: 75%;
     width: 100%;
     height: 40%;
-    margin: 0 auto;
+    margin: 10px auto;
     justify-content: center;
 }
 
@@ -265,6 +277,13 @@ footer {
     color: var(--cor-branca);
     font-size: 0.9rem;
     text-align: center;
+    margin-bottom: 0;
+    display: block;
+}
+
+.btn-topo {
+    display: none;
+    position: fixed;
 }
 
 /* Para Tablet */
@@ -295,8 +314,15 @@ footer {
     .contato-wpp {
         font-size: 1.1rem;
     }
-}
 
+    .card-servicos{
+        border-radius: 5px;
+        margin: 15px 2px;
+        box-shadow: 3px 6px 10px 2px var(--sombra-img);
+        overflow: hidden;
+    }
+
+}
 
 /* Para Desktop */
 @media (min-width: 1024px) {
