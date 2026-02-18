@@ -59,25 +59,21 @@ Benefícios dessa abordagem:
 
 🚀 Melhorias futuras
 
-Melhorar animações
+- Melhorar animações
 
-Adicionar menu responsivo
+- Adicionar menu responsivo
 
-Melhorar acessibilidade
+- Melhorar acessibilidade
 
 ---
 
-👨‍💻 Autor
+#👨‍💻 Autor
 
-Higor Rodrigues dos Santos
+**Higor Rodrigues dos Santos**
 Estudante de Análise e Desenvolvimento de Sistemas
 Focado em Desenvolvimento Web
 
 GitHub: https://github.com/Higor-dev-rs
 
 LinkedIn: https://www.linkedin.com/in/higor-rodrigues-dev/
-
-- Mobile First ✅  
-- Organização de projeto ✅  
-- GitHub ✅    
-- Boas práticas ✅  
+ 
