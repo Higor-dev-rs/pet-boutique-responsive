@@ -272,13 +272,18 @@ iframe {
 
 footer {
     width: 100%;
+    
     background-color: var(--cor-roxa);
-    padding: 0.42rem 0;
+    padding: 10px;
     color: var(--cor-branca);
     font-size: 0.9rem;
     text-align: center;
     margin-bottom: 0;
     display: block;
+}
+
+footer p {
+    margin: 0;
 }
 
 .btn-topo {
@@ -575,6 +580,8 @@ footer {
         font-size: 20px;
         opacity: 0;
         visibility: hidden;
+        align-items: center;
+        justify-content: center;
         transition: all 0.3s ease;
         z-index: 999;
         cursor: pointer;
@@ -582,6 +589,7 @@ footer {
     }
 
     #btn-topo.show {
+        display: flex;
         opacity: 0.8;
         visibility: visible;
     }
